@@ -85,6 +85,8 @@ p{margin:0 0 1em;text-wrap:pretty;color:var(--text)}
 }
 .btn-tan{background:var(--tan);color:#1a1612}
 .btn-tan:hover{background:var(--tan-soft);transform:translateY(-1px)}
+.btn-whatsapp{background:#25D366;color:#fff}
+.btn-whatsapp:hover{background:#1ebe57;transform:translateY(-1px);color:#fff}
 .btn-ghost{border:1px solid rgba(237,226,210,0.25);color:var(--cream)}
 .btn-ghost:hover{border-color:var(--tan);color:var(--tan)}
 .btn-arrow{transition:transform .3s}
