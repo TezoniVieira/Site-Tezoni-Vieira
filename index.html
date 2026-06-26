@@ -14,8 +14,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Contabilidade integrada com engenharia tributária ativa. Atendemos todo o Brasil. Diagnóstico tributário gratuito em até 30 minutos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="images/HERO.webp" fetchpriority="high">
+<link rel="preload" as="style" href="styles.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="styles.css"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -50,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ============== HERO ============== -->
 <section class="hero" id="hero">
-  <img class="photo" src="images/HERO.webp" alt="Equipe Tezoni Vieira" loading="eager">
+  <img class="photo" src="images/HERO.webp" alt="Equipe Tezoni Vieira" loading="eager" fetchpriority="high" decoding="async">
   <div class="container hero-grid">
     <div class="hero-copy reveal">
       <span class="eyebrow">Contabilidade com engenharia tributária integrada</span>
@@ -97,7 +100,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
   <div class="float-chip c-logo">
-    <img src="images/logo2.webp" alt="Tezoni Vieira">
+    <img src="images/logo2.webp" alt="Tezoni Vieira" loading="lazy" decoding="async">
   </div>
 </section>
 

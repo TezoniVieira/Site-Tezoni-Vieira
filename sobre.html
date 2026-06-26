@@ -14,8 +14,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Conheça a Tezoni Vieira, escritório que une contabilidade e engenharia tributária em uma única estrutura. Atuação nacional, atendimento direto.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="styles.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="styles.css"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
 <style>
 /* ── Sobre page styles ── */
 
@@ -333,7 +335,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 01 - Jéssica -->
       <div class="team-card reveal">
         <div class="team-photo">
-          <img src="images/team-1.avif" alt="Jéssica - Sócia-Proprietária">
+          <img src="images/team-1.avif" alt="Jéssica - Sócia-Proprietária" loading="lazy" decoding="async">
         </div>
         <div class="team-info">
           <div class="role">Sócia-Proprietária</div>
@@ -346,7 +348,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 02 - Márcio (ao lado da Jéssica) -->
       <div class="team-card reveal">
         <div class="team-photo">
-          <img src="images/team-3.webp" alt="Márcio - Sócio-Proprietário">
+          <img src="images/team-3.webp" alt="Márcio - Sócio-Proprietário" loading="lazy" decoding="async">
         </div>
         <div class="team-info">
           <div class="role">Sócio-Proprietário</div>
@@ -359,7 +361,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 03 - Ellen Nalon (por último, Comercial) -->
       <div class="team-card reveal">
         <div class="team-photo">
-          <img src="images/team-2.avif" alt="Ellen Nalon - Comercial">
+          <img src="images/team-2.avif" alt="Ellen Nalon - Comercial" loading="lazy" decoding="async">
         </div>
         <div class="team-info">
           <div class="role">Comercial</div>
